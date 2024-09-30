@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(255, 255, 0, 0.5);
+}
+
+h1 {
+    color: #007bff; /* Blue color for the main heading */
+}
+
+h2 {
+    color: #6c757d; /* Gray color for the subheading */
+}
+
+input {
+    width: calc(100% - 22px); /* Adjust width for padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green color for the create button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add spacing above button */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.fetch-btn {
+    background: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px; /* Add padding to button */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Space between name and button */
+    align-items: center; /* Center align items vertically */
+}
